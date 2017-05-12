@@ -1,2 +1,0 @@
-# TCU-Mapa
-Lugares TCU
