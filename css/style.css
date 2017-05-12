@@ -1,0 +1,93 @@
+header {
+	background:#4e629d;
+	height: 80px;
+	color:#fff;
+	
+}
+
+body{
+    background: rgba(78,98,157,.2);
+}
+
+nav{
+	background: #4e629d;
+}
+
+.main {
+	background:#f23232;
+}
+
+.color1 {
+	background: #34495e;
+	color:#fff;
+}
+
+
+
+footer {
+	background:#4e629d;
+	color:#fff;
+
+}
+
+#map{
+
+	height: 550px; 
+	width:100%;
+}
+
+ul>li{
+        /*display sirve para visualizar y el inline sirve para ponerlos en linea*/
+        display: inline;
+    }
+
+header h1{
+        color:#fff;
+        font-size: 33px;
+}
+
+header a{
+	
+	 font-size: 13px;
+	 margin: 0 0 0 0;
+}
+
+
+    nav ul li {
+    display:inline-block;
+    position: relative;
+
+}
+
+nav ul li:hover .children{
+    display: block;
+    
+}
+
+nav ul li .children{
+    display: none;
+    position: absolute;
+    z-index:1000;
+    width: 150%;
+    background: #4e629d;
+
+}
+
+nav ul li .children li{
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    background: #4e629d;
+    }
+
+div a{
+  color:#000;
+  position: relative;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  font-size: 14px;
+}
+
+div a:hover{
+  color:red;
+}
